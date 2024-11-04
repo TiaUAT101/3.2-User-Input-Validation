@@ -1,0 +1,54 @@
+/* Style for the body with a gradient background */
+body {
+    background: linear-gradient(to bottom right, pink, lightblue); /* Gradient from light blue to white */
+    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+    color: #000000; /* Dark gray text color for readability */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the body */
+}
+
+/* Header styling for better visibility */
+.header {
+    text-align: center; /* Center the header text */
+    color: #fcfcfc; /* Deep blue color for the header */
+    font-size: 2em; /* Larger font size for the header */
+    margin-bottom: 20px; /* Space below the header */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle text shadow for depth */
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: 100%; /* Full width of the parent */
+    padding: 10px; /* Padding inside the input */
+    margin-bottom: 15px; /* Space below each input */
+    border: 2px solid pink; /* Border color matching the header */
+    border-radius: 5px; /* Rounded corners for the inputs */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    font-size: 1em; /* Standard font size */
+}
+
+/* Button styling */
+button {
+    background-color: #007acc; /* Bright blue background */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1em; /* Standard font size */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #00509e; /* Darken button on hover */
+}
+
+/* Message styling to stand out */
+.message {
+    color: #d9534f; /* Red color for error messages */
+    font-weight: bold; /* Bold text for emphasis */
+    text-align: center; /* Center the message text */
+    margin-top: 20px; /* Space above the message */
+    font-size: 1.2em; /* Larger font size for messages */
+}
